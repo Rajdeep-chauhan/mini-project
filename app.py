@@ -7,8 +7,8 @@ from spotipy.oauth2 import SpotifyClientCredentials
 import polarplot
 import songrecommendations
 
-SPOTIPY_CLIENT_ID='e333b924ad9d4ed39c1fe2f7528bfb3f'
-SPOTIPY_CLIENT_SECRET='c15935c3eb504414af0eccc7dcef528b'
+SPOTIPY_CLIENT_ID='f7c1643a469c498db090600c48370d9c'
+SPOTIPY_CLIENT_SECRET='837bcd7f2fbc43e6b631ea7c922b9a6c'
 
 auth_manager = SpotifyClientCredentials(client_id=SPOTIPY_CLIENT_ID, client_secret=SPOTIPY_CLIENT_SECRET)
 sp = spotipy.Spotify(auth_manager=auth_manager)
