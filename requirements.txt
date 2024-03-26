@@ -1,0 +1,6 @@
+spotipy
+matplotlib
+seaborn
+numpy
+pandas
+Image
